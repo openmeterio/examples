@@ -1,20 +1,19 @@
 module github.com/openmeterio/openmeter/examples/export-stripe
 
-go 1.20
+go 1.22.4
 
 require (
-	github.com/openmeterio/openmeter v0.0.0-00010101000000-000000000000
+	github.com/openmeterio/openmeter v1.0.0-beta.88
 	github.com/stripe/stripe-go/v74 v74.21.0
 )
 
 require (
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.15.2 // indirect
-	github.com/getkin/kin-openapi v0.123.0 // indirect
+	github.com/getkin/kin-openapi v0.124.0 // indirect
 	github.com/go-chi/chi/v5 v5.0.12 // indirect
 	github.com/go-openapi/jsonpointer v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.8 // indirect
-	github.com/google/go-cmp v0.5.5 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
@@ -28,6 +27,3 @@ require (
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-// TODO: remove after project is published
-replace github.com/openmeterio/openmeter => ../..
